@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz">
+            <h1 id="welcome">Welcome to Trivia Quiz</h1>
+            <div id="question-container" class="hide">
+                <div id="question">Question text</div>
+                <div id="answer-buttons" class="btn-container"></div>
+            </div>
+            <div id="result-container" class="hide">
+                <div id="result"></div>
+                <button id="restart-btn" class="btn" onclick="startQuiz()">Play 1 more time</button>
+            </div>
+            <button id="start-btn" class="btn" onclick="startQuiz()">Start Quiz</button>
+            <div id="progress-container" class="hide">
+                <div id="progress">1 / 10</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
